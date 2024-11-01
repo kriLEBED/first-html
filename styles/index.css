@@ -1,0 +1,53 @@
+@import url(/styles/reset.css);
+@import url(/styles/global.css);
+
+.green-btn {
+    background-color: #7bb57c;
+    color: #ffffff;
+    border-radius: 5px;
+    size: 12px;
+}
+.green-btn:hover {
+    background-color: #242424;
+}
+
+/* section 1 Hero */
+.hero {
+    background-image: url(/img/hero.webp);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-width: 320px;
+    min-height: 600px;
+}
+
+/* section 5 */
+
+/* section 8 Companies Carousel */
+
+.companies-carousel{
+    padding: 50px 0;
+
+    .companies-carousel__inner{
+        display: grid;
+        grid-template-columns: 50px 1fr 50px;
+        min-height: 200px;
+    }
+    .companies-carousel__slides{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        overflow: hidden;
+    }
+    .companies-carousel__btn-prev, .companies-carousel__btn-next {
+        display: block;
+        cursor: pointer;
+        width: 24px;
+        height: 24px;
+        font-size: 20px;
+        border: none;
+    }
+}
