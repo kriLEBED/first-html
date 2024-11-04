@@ -1,5 +1,5 @@
-@import url(/styles/reset.css);
-@import url(/styles/global.css);
+@import url(./global.css);
+@import url(./reset.css);
 
 .green-text {
     color: #7bb57c;
@@ -43,6 +43,9 @@
     padding: 90px 0;
     .promotion__item {
         padding: 0 15px;
+    }
+    .promotion__item {
+        
     }
     .promotion__item img {
         margin-bottom: 20px;
