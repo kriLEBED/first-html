@@ -36,13 +36,41 @@
     min-height: 600px;
 }
 
+/* section 2 Promotions */
+.promotion {
+    display: flex;
+    flex-direction: column;
+    padding: 90px 0;
+    .promotion__item {
+        padding: 0 15px;
+    }
+    .promotion__item img {
+        margin-bottom: 20px;
+    }
+    .promotion__item h4 {
+        margin-bottom: 40px;
+    }
+    .promotion__item a{
+        color: #242424;
+    }
+    @media (min-width: 479px) {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
 /* section 3 Dot Banner */
 .dot-banner {
     padding: 160px 0;
     background-image: url(../img/background-dot.png);
     text-align: center;
+    justify-content: center;
     font-weight: bold;
-    font-size: 350%;
+    font-size: 230%;
+    overflow: hidden;
+    @media (min-width: 479px) {
+        font-size: 350%;
+    }
 }
 
 /* section 8 Companies Carousel */
