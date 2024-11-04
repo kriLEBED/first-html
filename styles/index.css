@@ -37,7 +37,13 @@
 }
 
 /* section 3 Dot Banner */
-
+.dot-banner {
+    padding: 160px 0;
+    background-image: url(../img/background-dot.png);
+    text-align: center;
+    font-weight: bold;
+    font-size: 350%;
+}
 
 /* section 8 Companies Carousel */
 .companies-carousel{
