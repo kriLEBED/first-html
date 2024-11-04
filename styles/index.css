@@ -29,8 +29,6 @@
     background-image: url(../img/hero.webp);
     background-size: cover;
     background-position: center;
-    display: flex;
-    flex-direction: column;
     width: 100%;
     min-width: 320px;
     min-height: 600px;
