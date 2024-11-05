@@ -1,0 +1,13 @@
+footer {
+  background-color: #333333;
+}
+.footer__nav {
+  padding: 30px 15px;
+  align-items: center;
+}
+.footer__nav p {
+  color: #fff;
+}
+.footer__nav a {
+  color: #fff;
+}

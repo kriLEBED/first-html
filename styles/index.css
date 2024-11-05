@@ -1,128 +1,128 @@
 @import url(./global.css);
 @import url(./reset.css);
+@import url(./global.header.css);
+@import url(./global.footer.css);
 
 .green-text {
-    color: #7bb57c;
+  color: #7bb57c;
 }
 .carousel-btn {
-    margin: auto;
-    display: block;
-    cursor: pointer;
-    width: 25px;
-    height: 25px;
-    font-size: 20px;
-    border: none;
-    background-color: transparent;
+  margin: auto;
+  display: block;
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+  font-size: 20px;
+  border: none;
+  background-color: transparent;
 }
 .green-btn {
-    background-color: #7bb57c;
-    color: #ffffff;
-    border-radius: 5px;
-    size: 12px;
+  background-color: #7bb57c;
+  color: #ffffff;
+  border-radius: 5px;
+  size: 12px;
 }
 .green-btn:hover {
-    background-color: #242424;
+  background-color: #242424;
 }
 
 /* section 1 Hero */
 .hero {
-    background-image: url(../img/hero.webp);
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    min-width: 320px;
-    min-height: 600px;
+  background-image: url(../img/hero.webp);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  min-width: 320px;
+  min-height: 600px;
 }
 
 /* section 2 Promotions */
 .promotion {
+  display: flex;
+  flex-direction: column;
+  padding: 90px 0;
+  .promotion__item {
+    padding: 0 15px;
+  }
+  .promotion__item {
+  }
+  .promotion__item img {
+    margin-bottom: 20px;
+  }
+  .promotion__item h4 {
+    margin-bottom: 40px;
+  }
+  .promotion__item a {
+    color: #242424;
+  }
+  @media (min-width: 479px) {
     display: flex;
-    flex-direction: column;
-    padding: 90px 0;
-    .promotion__item {
-        padding: 0 15px;
-    }
-    .promotion__item {
-        
-    }
-    .promotion__item img {
-        margin-bottom: 20px;
-    }
-    .promotion__item h4 {
-        margin-bottom: 40px;
-    }
-    .promotion__item a{
-        color: #242424;
-    }
-    @media (min-width: 479px) {
-        display: flex;
-        flex-direction: row;
-    }
+    flex-direction: row;
+  }
 }
 
 /* section 3 Dot Banner */
 .dot-banner {
-    padding: 160px 0;
-    background-image: url(../img/background-dot.png);
-    text-align: center;
-    justify-content: center;
-    font-weight: bold;
-    font-size: 230%;
-    overflow: hidden;
-    @media (min-width: 479px) {
-        font-size: 350%;
-    }
+  padding: 160px 0;
+  background-image: url(../img/background-dot.png);
+  text-align: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 230%;
+  overflow: hidden;
+  @media (min-width: 479px) {
+    font-size: 350%;
+  }
 }
 
 /* section 8 Companies Carousel */
-.companies-carousel{
-    padding: 50px 0;
+.companies-carousel {
+  padding: 50px 0;
 
-    .companies-carousel__inner{
-        display: grid;
-        grid-template-columns: 50px 1fr 50px;
-        min-height: 200px;
-    }
-    .companies-carousel__slides{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 10px;
-        overflow: hidden;
-    }
+  .companies-carousel__inner {
+    display: grid;
+    grid-template-columns: 50px 1fr 50px;
+    min-height: 200px;
+  }
+  .companies-carousel__slides {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    overflow: hidden;
+  }
 }
 
 /* section 10 our-customers-say */
 .our-customers-say {
-    padding-top: 70px;
-    padding-bottom: 90px;
-    background-color: #f2f2f2;
-    .our-customers-say__inner {
-        display: grid;
-        grid-template-columns: 50px 1fr 50px;
-        min-height: 600px;
-    }
-    .our-customers-say__slides{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 20px;
-        overflow: hidden;
-    }
-    .our-customers-say__slide {
-        background-color: #fff;
-        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-        height: 100%;
-    }
-    .our-customers-say__slide img {
-        border-radius: 50%;
-        height: 120px;
-        width: 120px;
-    }
-    .our-customers-say__slide p {
-        display: flex;
-        align-items: left;
-        justify-content: left;
-    }
+  padding-top: 70px;
+  padding-bottom: 90px;
+  background-color: #f2f2f2;
+  .our-customers-say__inner {
+    display: grid;
+    grid-template-columns: 50px 1fr 50px;
+    min-height: 600px;
+  }
+  .our-customers-say__slides {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    overflow: hidden;
+  }
+  .our-customers-say__slide {
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    height: 100%;
+  }
+  .our-customers-say__slide img {
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+  }
+  .our-customers-say__slide p {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+  }
 }
-
