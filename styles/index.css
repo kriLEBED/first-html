@@ -9,7 +9,6 @@
 .carousel-btn {
   margin: auto;
   display: block;
-  cursor: pointer;
   width: 25px;
   height: 25px;
   font-size: 20px;
@@ -41,7 +40,6 @@
   display: flex;
   flex-direction: column;
   padding: 90px 0;
-
   .promotion__item {
     padding: 0 15px;
   }
@@ -83,7 +81,21 @@
 }
 
 /* section 4 Best Selling */
-
+.best-selling {
+  padding: 70px 0;
+  text-align: center;
+  justify-content: center;
+}
+.best-selling__item {
+  padding: 15px;
+  margin: 15px;
+}
+@media (min-width: 479px) {
+  .best-selling__conteiner {
+    display: flex;
+    flex-direction: row;
+  }
+}
 
 /* section 5 Static Background */
 .static-banner {
